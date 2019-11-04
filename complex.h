@@ -93,6 +93,10 @@ public:
 		result=atan2(Real,Imag);
 		return result;
 	}
+	
+	Complex conj(const Complex c1){
+		return Complex(c1.Real,-c1.Imag);	
+	}
 	  
 };
 
