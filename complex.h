@@ -87,7 +87,12 @@ public:
 		result=sqrt(s);
 		return result;
 	}
-	  
+	
+	double phase(const Complex c1){
+		double result;
+		result=atan2(Real,Imag);
+		return result;
+	}
 	  
 };
 
@@ -106,10 +111,6 @@ operator - (Complex s1, Complex s2)
 	return result;
     }
 
-	
-	/* double conj(){
-	} 
-	
 
-*/
+
 #endif /* __Complex_H__ */
